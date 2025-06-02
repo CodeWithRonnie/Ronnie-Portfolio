@@ -3,27 +3,35 @@ export const NAV_ITEMS = ['About', 'Projects', 'Skills', 'Contact'];
 export const PROJECTS = [
   { 
     id: 1,
-    title: "Banking App", 
-    description: "A secure and modern banking UI built with React and Tailwind.",
+    title: "ID Validator", 
+    description: "A Java application for validating South African ID numbers with both CLI and Java Swing GUI interfaces. Includes comprehensive validation logic and unit tests.",
     demoLink: "#",
-    codeLink: "#",
-    tags: ["React", "Tailwind", "Context API"]
+    codeLink: "https://github.com/CodeWithRonnie/ID-VALIDATION",
+    tags: ["Java", "Java Swing", "JUnit", "Gradle", "GUI"]
   },
   { 
     id: 2,
-    title: "Movie Database", 
-    description: "Explore and search movie titles using API data.",
-    demoLink: "#",
-    codeLink: "#",
-    tags: ["React", "API", "Responsive"]
+    title: "XStream Movie Database", 
+    description: "A responsive movie streaming app with user authentication, movie browsing by genres, and personalized watchlists. Integrated with TMDb API for real movie data.",
+    demoLink: "https://movie-online-roan.vercel.app/",
+    codeLink: "https://github.com/Software-Development-Capaciti/Movie-database",
+    tags: ["React", "Firebase", "TMDb API", "Bootstrap", "Framer Motion"]
   },
   { 
     id: 3,
-    title: "ID Validator", 
-    description: "Validate South African IDs with real-time feedback.",
-    demoLink: "#",
-    codeLink: "#",
-    tags: ["JavaScript", "Form Validation"]
+    title: "Banking System", 
+    description: "A modern banking application with secure user authentication and transaction management.",
+    demoLink: "https://banking-frontend-j7ik.onrender.com/",
+    codeLink: "https://github.com/Software-Development-Capaciti/banking-frontend",
+    tags: ["React", "JavaScript", "UI/UX", "Responsive Design"]
+  },
+  { 
+    id: 4,
+    title: "My ToDo List", 
+    description: "A task management application to help organize daily activities and boost productivity.",
+    demoLink: "https://my-to-do-list-neon-nine.vercel.app/",
+    codeLink: "https://github.com/CodeWithRonnie/My-ToDo-List",
+    tags: ["React", "Local Storage", "Task Management"]
   },
 ];
 
