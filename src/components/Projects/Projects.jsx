@@ -29,7 +29,7 @@ const Projects = () => {
             >
               <div className="h-48 bg-gray-100 overflow-hidden">
                 <img 
-                  src={`/images/projects/${project.id}.jpg`} 
+                  src={project.image || `/images/projects/${project.id}.jpg`} 
                   alt={project.title}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                   onError={(e) => {
